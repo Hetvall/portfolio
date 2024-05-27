@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f7f3;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bgImageSkills {
+  background-image: url(./assets/Skills-Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImageHome {
+  background-image: url(./assets/Background-Lines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
