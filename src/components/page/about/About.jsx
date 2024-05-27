@@ -14,7 +14,7 @@ const About = () => {
               personally.
             </p>
             <p>
-              I've been coding for more than a year now in personal projects,
+              I have been coding for more than a year now in personal projects,
               and It became my new passion instantly,
             </p>
             <p>
@@ -34,7 +34,7 @@ const About = () => {
             <br />
 
             <h2 className="font-bold mt-10">
-              Here's my CV for further information!
+              Here is my CV for further information!
             </h2>
             <div className="mt-10">
               <Link to="https://heyzine.com/flip-book/687a4a9a29.html">

@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import profilePhoto from "../../../assets/Orange-Dark-Gray-Headshot.png";
+import gitHubBlackIcon from "../../../assets/GitHub_Dark_Gray.png";
+import linkedInIcon from "../../../assets/LinkedIn_Dark_Gray.png";
+import whatsAppIcon from "../../../assets/Wsp_Dark_Gray.png";
+import instagramIcon from "../../../assets/Instagram_Dark_Gray.png";
 
 const Home = () => {
   return (
@@ -14,7 +19,7 @@ const Home = () => {
             <Link to="https://github.com/Hetvall">
               <button className="">
                 <img
-                  src={"src/assets/GitHub_Dark_Gray.png"}
+                  src={gitHubBlackIcon}
                   alt="GitHub Icon"
                   className="w-7 sm:w-8 xl:w-12 opacity-50 hover:opacity-100 "
                 />
@@ -24,7 +29,7 @@ const Home = () => {
             <Link to="https://www.linkedin.com/in/james-orozco-922712291/">
               <button>
                 <img
-                  src={"src/assets/LinkedIn_dark_Gray.png"}
+                  src={linkedInIcon}
                   alt="LinkedIn Icon"
                   className="w-7 sm:w-8 xl:w-12 ml-5 opacity-50 hover:opacity-100 "
                 />
@@ -33,7 +38,7 @@ const Home = () => {
             <Link to="https://api.whatsapp.com/send/?phone=3137112104&text&type=phone_number&app_absent=0">
               <button>
                 <img
-                  src={"src/assets/Wsp_dark_Gray.png"}
+                  src={whatsAppIcon}
                   alt="WhatsApp Icon"
                   className="w-7 sm:w-8 xl:w-12 ml-5 opacity-50 hover:opacity-100 "
                 />
@@ -43,7 +48,7 @@ const Home = () => {
             <Link to="https://www.instagram.com/orozcoh7/">
               <button>
                 <img
-                  src={"src/assets/Instagram_Dark_Gray.png"}
+                  src={instagramIcon}
                   alt="Instagram Icon"
                   className="w-7 sm:w-8 xl:w-12 ml-5 opacity-50 hover:opacity-100 "
                 />
@@ -52,11 +57,7 @@ const Home = () => {
           </div>
         </div>
 
-        <img
-          className="w-1/3 ml-20"
-          src={"src/assets/Orange-Dark-Gray-Headshot.png"}
-          alt="personal photo"
-        />
+        <img className="w-1/3 ml-20" src={profilePhoto} alt="personal photo" />
       </div>
     </div>
   );

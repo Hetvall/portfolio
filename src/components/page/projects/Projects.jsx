@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import gitHubOrangeIcon from "../../../assets/GitHub_Orange.png";
+import ecommerceProject from "../../../assets/ecommerce.png";
+import manUnitedFanPageProject from "../../../assets/man-united-fan-page.png";
+import cardDetailsProject from "../../../assets/interactive-card-details.png";
 
 const Projects = () => {
   return (
@@ -7,7 +11,7 @@ const Projects = () => {
       <div className="flex flex-row justify-around w-full">
         <div className="flex flex-col items-center space-y-4 mt-10">
           <img
-            src="src/assets/ecommerce.png"
+            src={ecommerceProject}
             alt="interactive card"
             className="w-15 h-60 object-cover"
           />
@@ -18,7 +22,7 @@ const Projects = () => {
           >
             <img
               style={{ width: "5%" }}
-              src="src/assets/Github_Orange.png"
+              src={gitHubOrangeIcon}
               alt="GitHub Orange Icon"
             />
           </Link>
@@ -36,7 +40,7 @@ const Projects = () => {
 
         <div className="flex flex-col items-center space-y-3 mt-10">
           <img
-            src="src/assets/man-united-fan-page.png"
+            src={manUnitedFanPageProject}
             alt="interactive card"
             className="w-15 h-60 object-cover"
           />
@@ -47,7 +51,7 @@ const Projects = () => {
           >
             <img
               style={{ width: "5%" }}
-              src="src/assets/Github_Orange.png"
+              src={gitHubOrangeIcon}
               alt="GitHub Orange Icon"
             />
           </Link>
@@ -64,7 +68,7 @@ const Projects = () => {
 
         <div className="flex flex-col items-center space-y-3 mt-10">
           <img
-            src="src/assets/interactive-card-details.png"
+            src={cardDetailsProject}
             alt="interactive card"
             className="w-15 h-60 object-cover"
           />
@@ -75,7 +79,7 @@ const Projects = () => {
           >
             <img
               style={{ width: "5%" }}
-              src="src/assets/Github_Orange.png"
+              src={gitHubOrangeIcon}
               alt="GitHub Orange Icon"
             />
           </Link>
