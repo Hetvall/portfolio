@@ -28,7 +28,7 @@ const About = () => {
             <p>
               I like to keep the code as clean, readable & organized as
               possible, giving my best to achieve and get the best result
-              possible.
+              always.
             </p>
 
             <br />
@@ -37,10 +37,15 @@ const About = () => {
               Here is my CV for further information!
             </h2>
             <div className="mt-10">
-              <Link to="https://heyzine.com/flip-book/687a4a9a29.html">
+              <Link
+                to="https://drive.google.com/file/d/1teh7w342zImBFTi4dD4SSWGCi7VzLbk1/view"
+                download="james_orozco_cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={cvIcon}
-                  alt=""
+                  alt="CVC Icon"
                   style={{ width: 80, height: 80 }}
                   className="mx-auto duration-500 hover:scale-110  hover:shadow-orange-400"
                 />

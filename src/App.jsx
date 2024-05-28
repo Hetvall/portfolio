@@ -16,7 +16,6 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
         </Route>
-
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

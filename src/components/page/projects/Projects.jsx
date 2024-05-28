@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="w-full min-h-screen flex flex-col items-center mt-10 bgImageSkills">
       <h1 className="text-6xl mb-16 font-bold items-center">Projects</h1>
-      <div className="flex flex-row justify-around w-full">
+      <div className="flex flex-col md:flex-col lg:flex-row justify-around w-full">
         <div className="flex flex-col items-center space-y-4 mt-10">
           <img
             src={ecommerceProject}
@@ -18,6 +18,8 @@ const Projects = () => {
           <h2 className="font-semibold text-2xl">Ecommerce</h2>
           <Link
             to="https://github.com/Hetvall/Ecommerce"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center"
           >
             <img
@@ -47,6 +49,8 @@ const Projects = () => {
           <h2 className="font-semibold text-2xl">Manchester United Fan Page</h2>
           <Link
             to="https://github.com/Hetvall/Manchester-United-Heritage"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center"
           >
             <img
@@ -75,6 +79,8 @@ const Projects = () => {
           <h2 className="font-semibold text-2xl">Interactive Card</h2>
           <Link
             to="https://github.com/Hetvall/InteractiveCardDetails"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center"
           >
             <img
