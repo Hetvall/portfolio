@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div className="w-full flex flex-col items-center mt-20 min-h-screen bgImageSkills">
       <h1 className="text-6xl mb-10 font-bold">Skills</h1>
-      <div className="flex flex-col sm:flex-row flex-wrap justify-evenly cursor-pointer">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 cursor-pointer w-4/5 mx-auto">
         {[
           { icon: reactIcon, name: "React Js" },
           { icon: jsIcon, name: "JavaScript" },
@@ -26,7 +26,7 @@ const Skills = () => {
         ].map((skill, index) => (
           <div
             key={index}
-            className="w-full sm:w-1/3 xl:w-1/4 h-48 xl:h-32 bg-customGray mb-5 sm:m-2 xl:m-5 rounded-xl flex flex-col items-center justify-center shadow-lg duration-500 hover:scale-110 hover:shadow-orange-400"
+            className="h-48 xl:h-32 bg-customGray mb-5 sm:m-2 xl:m-5 rounded-xl flex flex-col items-center justify-center shadow-lg duration-500 hover:scale-110 hover:shadow-orange-400"
           >
             <img
               src={skill.icon}

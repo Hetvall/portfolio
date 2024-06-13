@@ -3,15 +3,15 @@ import cvIcon from "../../../assets/CV Icon-Dark-Gray.png";
 
 const About = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-start items-center mt-10 bgImageHome">
-      <div className="flex-initial flex justify-center items-center mt-40">
+    <div className="min-h-screen flex flex-col justify-start items-center bgImageHome">
+      <div className="flex-initial flex justify-center items-center mt-20">
         <div className="text-center">
           <h1 className="text-6xl mb-10 font-bold">About Me</h1>
-          <div>
+          <div className="p-8">
             <p>
               I consider myself as someone who never give up, I am constantly
               working to get better, to learn and improve professionally and
-              personally.
+              personally.{" "}
             </p>
             <p>
               I have been coding for more than a year now in personal projects,

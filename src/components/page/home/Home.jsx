@@ -10,10 +10,10 @@ const Home = () => {
     <div className="min-h-screen flex flex-col justify-center">
       <div className="flex-grow flex justify-center items-center bgImageHome flex-col sm:flex-row">
         <div className="text-center">
-          <h1 className="text-5xl mb-3">👋Hello there!</h1>
-          <h3 className="text-4xl">
-            I am James Orozco,
-            <span className="font-extrabold"> Front-End Developer</span>
+          <h1 className="sm: text-4xl md:text-5xl mb-5">👋Hello there!</h1>
+          <h3 className="sm: text-3xl md:text-4xl">I am James Orozco, </h3>
+          <h3 className="sm: text-3xl md:text-4xl font-extrabold mt-2 sm:mt-0">
+            Front-End Developer
           </h3>
           <div className="mt-8 sm:justify-start md:justify-start">
             <Link
@@ -57,7 +57,7 @@ const Home = () => {
           </div>
         </div>
         <img
-          className="sm:w-2/3 md:w-1/4 lg:w-1/3 sm:ml-0"
+          className="sm:w-1/3 md:w-1/4 lg:w-1/3 sm:ml-0"
           src={profilePhoto}
           alt="personal photo"
         />

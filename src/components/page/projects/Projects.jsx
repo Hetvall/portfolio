@@ -6,7 +6,7 @@ import cardDetailsProject from "../../../assets/interactive-card-details.png";
 
 const Projects = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center mt-10 bgImageSkills">
+    <div className="w-full min-h-screen flex flex-col items-center mt-10 bgImageSkills p-5">
       <h1 className="text-6xl mb-16 font-bold items-center">Projects</h1>
       <div className="flex flex-col md:flex-col lg:flex-row justify-around w-full">
         <div className="flex flex-col items-center space-y-4 mt-10">

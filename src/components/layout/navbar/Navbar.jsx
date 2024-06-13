@@ -15,10 +15,10 @@ const Navbar = () => {
 
   return (
     <div
-      className="relative w-full auto flex justify-between items-center mt-5 py-6 px-4 bg-customGray"
+      className="relative w-full flex justify-between items-center mt-6 py-6 px-4 bg-customGray"
       style={{ color: "#f9f7f3" }}
     >
-      <Link to="/">
+      <Link to="/" className="flex items-center">
         <span className="text-4xl bg-customGray">James</span>
         <span className="font-bold text-4xl bg-customGray">OrozcoH</span>
       </Link>
@@ -30,9 +30,9 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`absolute top-full left-10 w-full md:static md:w-auto md:flex md:items-center md:space-x-12 bg-customGray text-white ${
-          isOpen ? "block" : "hidden"
-        } md:block`}
+        className={`absolute top-full left-0 w-full md:static md:w-auto md:flex md:items-center md:space-x-12 bg-customGray text-white transition-all duration-300 ${
+          isOpen ? "flex flex-row items-center justify-center" : "hidden"
+        } md:flex`}
       >
         <Link
           to="/"
